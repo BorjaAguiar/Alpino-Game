@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (x != 0)
             {
-                y = y + 0.5f;
+                y = y + 0.6f;
             }else
             {
                 y = 0;
@@ -60,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if(x != 0)
             {
-                y = y + 0.5f;
+                y = y + 0.6f;
             }
         }
 
