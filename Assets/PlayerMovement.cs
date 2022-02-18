@@ -64,8 +64,8 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        print("x: " + x);
-        print("y: " + y);
+        //print("x: " + x);
+        //print("y: " + y);
 
         moveDir = new Vector3(x, y).normalized;
     }
