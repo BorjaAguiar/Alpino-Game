@@ -15,6 +15,10 @@ public class CamaraSc : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(transform.position.x, Target.transform.position.y - 11, transform.position.z);
+        if (Target != null)
+        {
+            transform.position = new Vector3(transform.position.x, Target.transform.position.y - 11, transform.position.z);
+        }
+        
     }
 }
