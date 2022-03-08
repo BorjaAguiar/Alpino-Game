@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DamageObject : MonoBehaviour
 {
@@ -8,5 +9,12 @@ public class DamageObject : MonoBehaviour
     {
         Debug.Log("Player Damaged");
         Destroy(collision.gameObject);
+        menu();
+        
+    }
+
+    public void menu()
+    {
+        SceneManager.LoadScene("Menu");
     }
 }

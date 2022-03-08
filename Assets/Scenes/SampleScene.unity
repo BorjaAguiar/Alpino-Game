@@ -591,9 +591,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400069282}
-  - component: {fileID: 400069284}
   - component: {fileID: 400069285}
   - component: {fileID: 400069283}
+  - component: {fileID: 400069284}
   m_Layer: 0
   m_Name: Finish-Line
   m_TagString: Untagged
@@ -636,7 +636,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 400069281}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0bbec9d4995a5b49a3992a5feafca4a, type: 3}
+  m_Script: {fileID: 11500000, guid: 0df17b2e4af8ec442959bf6315713752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &400069285
