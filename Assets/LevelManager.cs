@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {   
-    public enum Levels {Lvl1 = 0, Lvl2 = 1, Menu = 3}
+    public enum Levels {Lvl1 = 1, Lvl2 = 2, Menu = 0}
 
     public void CambiarNivel(Levels level)
     {

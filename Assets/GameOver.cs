@@ -11,18 +11,18 @@ public class GameOver : MonoBehaviour
     // Start is called before the first frame update
     public void Restart_lvl2()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 
     public void Restart_lvl1()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     // Update is called once per frame
     public void Menu()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(0);
     }
 
     public void Button_quit()

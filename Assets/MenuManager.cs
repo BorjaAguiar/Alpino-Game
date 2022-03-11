@@ -9,12 +9,12 @@ public class MenuManager : MonoBehaviour
     // Start is called before the first frame update
     public void Button_lvl1()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void Button_lvl2()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 
     // Update is called once per frame
